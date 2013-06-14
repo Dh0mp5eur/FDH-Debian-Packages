@@ -2,7 +2,7 @@ FDH Personnal Debian Packages
 =====================
 
 ***
-PostInstall Debian Package
+## PostInstall Debian Package
 
 ### Description: Personnal Meta Package
 
@@ -20,7 +20,8 @@ PostInstall Debian Package
 #### Remplace:
 	/etc/bash.bashrc
 
-Desktop Debian Package
+
+## Desktop Debian Package
 
 ### Description: Desktop Meta Package
 
