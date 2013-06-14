@@ -1,0 +1,11 @@
+Package: fdh-desktop
+Version: 0.1-0
+Section: base
+Priority: optional
+Architecture: all
+Depends: fdh-postinstall, gftp, irssi, cinnamon, chromium, chromium-l10n, icedtea-7-plugin, flashplugin-nonfree, vlc, preload, wireshark, pintai, evince, libreoffice, libreoffice-l10n-fr, rhythmbox, rhythmbox-plugin, rhythmbox-plugin-cdrecorder, brasero, mscgen, ditaa, gnuplot, gedit, zenmap, putty, gnome-terminal, guake, nautilus-dropbox 
+Conflicts:
+Maintainer: Dh0mp5eur <dhomps.florian@gmail.com>
+Description: Meta-package pour installer Cinnamon
+ Installe l'environnnement graphique Cinnamon dans une version minimale et
+ épurée.
