@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Ambiance
+Comment=Ubuntu Mountain Lion theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Mountain-Lion
+MetacityTheme=Mountain Lion
+IconTheme=iLinux-icons
+CursorTheme=Mac-Rainbow
+ButtonLayout=close,minimize,maximize:
