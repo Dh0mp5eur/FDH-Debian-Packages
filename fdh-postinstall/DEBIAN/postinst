@@ -5,7 +5,7 @@
 
 # Remplacement du Bach.Bachrc
 /bin/mv -f /etc/bash.bashrc /etc/bash.bashrc.hold
-/bin/cp -f /etc/fdh-bach.bachrc /etc/bash.bashrc
+/bin/cp -f /etc/fdh-bash.bashrc /etc/bash.bashrc
 
 # Nettoyage du /etc/skel (pour les utilisateurs futurs)
 /bin/rm -f /etc/skel/.bashrc
