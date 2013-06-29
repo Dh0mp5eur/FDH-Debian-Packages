@@ -3,7 +3,7 @@ Version: 0.1-0
 Section: base
 Priority: optional
 Architecture: all
-Depends: fdh-postinstall, gftp, irssi, cinnamon, chromium, chromium-l10n, icedtea-7-plugin, flashplugin-nonfree, vlc, preload, wireshark, pinta, evince, libreoffice, libreoffice-l10n-fr, rhythmbox, rhythmbox-plugins, rhythmbox-plugin-cdrecorder, brasero, mscgen, ditaa, gnuplot, gedit, zenmap, putty, gnome-terminal, guake, nautilus-dropbox 
+Depends: fdh-postinstall, gftp, irssi, cinnamon, chromium, chromium-l10n, icedtea-7-plugin | icedtea-netx, flashplugin-nonfree, vlc, preload, wireshark, pinta, evince, libreoffice, libreoffice-l10n-fr, rhythmbox, rhythmbox-plugins, rhythmbox-plugin-cdrecorder, brasero, mscgen, ditaa, gnuplot, gedit, zenmap, putty, gnome-terminal, guake, nautilus-dropbox 
 Conflicts:
 Maintainer: Dh0mp5eur <dhomps.florian@gmail.com>
 Description: Meta-package pour installer Cinnamon
