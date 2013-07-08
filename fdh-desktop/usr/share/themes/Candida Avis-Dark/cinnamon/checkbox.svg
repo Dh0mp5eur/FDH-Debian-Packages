@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3025"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="66"
+   height="22"
+   sodipodi:docname="checkbox.svg">
+  <metadata
+     id="metadata3031">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3029" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="800"
+     inkscape:window-height="851"
+     id="namedview3027"
+     showgrid="false"
+     inkscape:zoom="4.1666667"
+     inkscape:cx="33"
+     inkscape:cy="11"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3025" />
+  <image
+     width="66"
+     height="22"
+     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAWCAYAAAB0S0oJAAAABHNCSVQICAgIfAhkiAAAAEtJREFU
+WIXt0DERwDAQwLC0tJ5eeLeLOCSDhcDnZ2a+ddje+3TCek8H3KIRNIJG0AgaQSNoBI2gETSCRtAI
+GkEjaASNoBE0gkbQCH7j4gNoyA2uFAAAAABJRU5ErkJggg==
+"
+     id="image3033"
+     x="-66"
+     y="0"
+     transform="scale(-1,1)" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3039"
+     style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+       id="flowRegion3041"><rect
+         id="rect3043"
+         width="122.88"
+         height="78.720001"
+         x="79.919998"
+         y="-49.52" /></flowRegion><flowPara
+       id="flowPara3045"></flowPara></flowRoot>  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="8.8800001"
+     y="14.799999"
+     id="text3116"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3118"
+       x="8.8800001"
+       y="14.799999"
+       style="font-size:10px">ON</tspan></text>
+</svg>
