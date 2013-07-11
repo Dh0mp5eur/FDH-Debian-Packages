@@ -1,0 +1,17 @@
+Package: fdh-bash
+Version: 0.1-0
+Section: base
+Priority: optional
+Architecture: all
+Depends: vim, most, git 
+Maintainer: Dh0mp5eur <dhomps.florian@gmail.com>
+Description: Personnal Meta Package
+ Modifie:
+  /etc/vim/vimrc (coloration syntaxique)
+ Retire:
+  /home/$USER/.bashrc
+  /root/.bashrc
+  /root/.bash_logout
+  /etc/skel/*
+ Remplace:
+  /etc/bash.bashrc
