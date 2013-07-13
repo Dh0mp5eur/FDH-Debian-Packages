@@ -5,4 +5,4 @@ Priority: optional
 Architecture: all
 Depends: fdh-bash, htop, screen, dfc
 Maintainer: Dh0mp5eur <dhomps.florian@gmail.com>
-Description: Personnal Psotinstall Meta Package
+Description: Personnal Postinstall Meta Package
