@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for USER in `/bin/ls /home`
+do
+	/bin/cp -f /etc/skel/yakuakerc /home/$USER/.kde/share/config/
+	/bin/chown $USER:$USER /home/$USER/.kde/share/config/yakuakerc
+done

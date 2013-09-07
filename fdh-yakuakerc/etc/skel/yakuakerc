@@ -1,0 +1,33 @@
+[$Version]
+update_info=yakuake.upd:2.9.9-startupnotification
+
+[Appearance]
+BackgroundColorOpacity=20
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Dialogs]
+FirstRun=false
+
+[Favorite Profiles]
+Favorites=
+
+[Shortcuts]
+grow-terminal-bottom=Ctrl+Shift+Down
+grow-terminal-left=Ctrl+Shift+Left
+grow-terminal-right=Ctrl+Shift+Right
+grow-terminal-top=Ctrl+Shift+Up
+move-session-left=none
+move-session-right=none
+next-session=Ctrl+Right
+next-terminal=Ctrl+Down
+previous-session=Ctrl+Left
+previous-terminal=Ctrl+Up
+rename-session=F2
+split-left-right=Ctrl+V
+split-top-bottom=Ctrl+H
+view-full-screen=F11
+
+[Window]
+Width=100

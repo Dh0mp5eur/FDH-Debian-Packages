@@ -2,3 +2,4 @@
 dpkg-deb -b fdh-bash
 dpkg-deb -b fdh-postinstall
 dpkg-deb -b fdh-desktop
+dpkg-deb -b fdh-yakuakerc

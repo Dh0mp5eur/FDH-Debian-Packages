@@ -1,0 +1,8 @@
+Package: fdh-yakuakerc
+Version: 1-0
+Section: base
+Priority: optional
+Architecture: all
+Depends: yakuake 
+Maintainer: Dh0mp5eur <dhomps.florian@gmail.com>
+Description: Personnal YakuakeRC Package
