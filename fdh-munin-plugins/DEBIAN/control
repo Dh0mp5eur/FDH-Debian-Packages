@@ -1,0 +1,9 @@
+Package: fdh-munin-plugins
+Version: 0.1-0
+Section: base
+Priority: optional
+Architecture: all
+Depends: munin-node 
+Maintainer: Dh0mp5eur <dhomps.florian@gmail.com>
+Description: Personnal Plugins for Munin
+	mem_used

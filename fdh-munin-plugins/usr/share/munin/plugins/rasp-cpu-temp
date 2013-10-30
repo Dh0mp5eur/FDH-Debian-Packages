@@ -1,0 +1,28 @@
+#!/bin/bash
+#
+# Munin plugin for monitor Raspberry Pi CPU Temp
+#
+# Written by Dh0mp5eur
+#
+case $1 in
+        "config")
+                echo "graph_title CPU Temp"
+                echo "graph_vlabel Temp °C"
+                echo "graph_category system"
+                echo "cpu.label CPU"
+                echo "graph_args --base 1"
+                exit 0
+                ;;
+        "man")
+                echo "#"
+                echo "Munin plugin for monitor Raspberry Pi CPU Temp"
+                echo "#"
+                echo "Written by Dh0mp5eur"
+                echo "#"
+                ;;
+        *)
+                let "CPUTemp=((`cat /sys/class/thermal/thermal_zone0/temp`)/1000)"
+                echo "cpu.value $CPUTemp"
+                ;;
+esac
+
