@@ -1,0 +1,19 @@
+#!/bin/bash
+VG='VGNAME'
+echo '==================================='
+echo "     Snapshot LVM on VG $VG      "
+echo '==================================='
+backup=$(lvdisplay |grep /dev/${VG}/backup |wc -l)
+if [ ${backup} -eq 1 ];then
+	echo '==================================='
+	echo '         Remove VG Backup          '
+	echo '==================================='
+	lvremove /dev/${VG}/backup
+fi
+echo '==================================='
+echo '         Create VG Backup          '
+echo '==================================='
+lvcreate -l 100%FREE -s -n backup /dev/${VG}/root
+echo '==================================='
+echo '         Snapshot Complete         '
+echo '==================================='

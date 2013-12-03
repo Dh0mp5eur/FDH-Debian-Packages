@@ -1,0 +1,9 @@
+Package: fdh-lvm-snapshot
+Version: 0.1-0
+Section: base
+Priority: optional
+Architecture: all
+Depends: lvm2, grep
+Maintainer: Dh0mp5eur <dhomps.florian@gmail.com>
+Description: SnapShot LVM2 Script
+ Create a LVM snapshot of root logical volume.

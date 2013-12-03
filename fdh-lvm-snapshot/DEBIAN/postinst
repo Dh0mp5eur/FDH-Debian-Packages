@@ -1,0 +1,14 @@
+#!/bin/bash
+if [ `vgdisplay |grep VG\ Name |wc -l` -eq 1 ];then
+	VGNAME=$(vgdisplay |grep VG\ Name |awk '{print $3}')
+	echo '==================================='
+	echo "         LVM VG Detect $VG         "
+	echo '==================================='
+else
+	echo '==================================='
+	vgdisplay |grep VG\ Name
+	echo '==================================='
+	echo 'Enter VG Name :'
+	read VGNAME
+fi
+sed -i "s/VGNAME/${VGNAME}/g" /usr/sbin/backup-lvm
