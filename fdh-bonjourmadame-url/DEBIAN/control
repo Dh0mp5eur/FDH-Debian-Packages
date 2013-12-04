@@ -3,7 +3,7 @@ Version: 0.1-0
 Section: base
 Priority: optional
 Architecture: all
-Depends: awk, grep, curl, cut
+Depends: awk, grep, curl
 Maintainer: Dh0mp5eur <dhomps.florian@gmail.com>
 Description: Return URL of the lady of the day
  For Scripted Image KDE Plasmoid 
