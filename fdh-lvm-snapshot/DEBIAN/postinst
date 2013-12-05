@@ -2,7 +2,7 @@
 if [ `vgdisplay |grep VG\ Name |wc -l` -eq 1 ];then
 	VGNAME=$(vgdisplay |grep VG\ Name |awk '{print $3}')
 	echo '==================================='
-	echo "         LVM VG Detect $VG         "
+	echo "      LVM VG Detect $VGNAME        "
 	echo '==================================='
 else
 	echo '==================================='
