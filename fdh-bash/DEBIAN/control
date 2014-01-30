@@ -1,9 +1,9 @@
 Package: fdh-bash
-Version: 0.1-0
+Version: 0.1-1
 Section: base
 Priority: optional
 Architecture: all
-Depends: vim, most, git 
+Depends: bash-completion, vim, most, git 
 Maintainer: Dh0mp5eur <dhomps.florian@gmail.com>
 Description: Personnal Meta Package
  Modifie:
