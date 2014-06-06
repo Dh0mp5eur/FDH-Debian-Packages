@@ -14,18 +14,23 @@ FirstRun=false
 Favorites=
 
 [Shortcuts]
+decrease-window-width=none
 grow-terminal-bottom=Ctrl+Shift+Down
 grow-terminal-left=Ctrl+Shift+Left
 grow-terminal-right=Ctrl+Shift+Right
 grow-terminal-top=Ctrl+Shift+Up
-move-session-left=none
-move-session-right=none
-next-session=Ctrl+Right
-next-terminal=Ctrl+Down
-previous-session=Ctrl+Left
-previous-terminal=Ctrl+Up
+increase-window-width=none
+move-session-left=Alt+Shift+Left
+move-session-right=Alt+Shift+Right
+new-session-quad=Ctrl+4
+new-session-two-horizontal=Ctrl+3
+new-session-two-vertical=Ctrl+2
+next-session=Ctrl+Tab
+next-terminal=Ctrl+Right
+previous-session=Ctrl+Shift+Tab
+previous-terminal=Ctrl+Left
 rename-session=F2
-split-left-right=Ctrl+V
+split-left-right=Ctrl+G
 split-top-bottom=Ctrl+H
 view-full-screen=F11
 
