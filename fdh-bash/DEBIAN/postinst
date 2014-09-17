@@ -3,6 +3,8 @@
 # Remplacement du Bach.Bachrc
 /bin/mv -f /etc/bash.bashrc /etc/bash.bashrc.hold
 /bin/cp -f /etc/fdh-bash.bashrc /etc/bash.bashrc
+/bin/mv -f /etc/vimrc /etc/vim/
+/bin/mv -f /etc/colors /etc/vim/
 
 # Nettoyage du /etc/skel (pour les utilisateurs futurs)
 /bin/rm -f /etc/skel/.bashrc

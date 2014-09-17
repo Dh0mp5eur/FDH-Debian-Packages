@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Nettoyage du /etc/vim
+/bin/rm -f /etc/vim/vimrc
