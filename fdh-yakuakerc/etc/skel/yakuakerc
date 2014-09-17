@@ -3,12 +3,18 @@ update_info=yakuake.upd:2.9.9-startupnotification
 
 [Appearance]
 BackgroundColorOpacity=20
+Skin=ethais
+SkinInstalledWithKns=true
 
 [Desktop Entry]
 DefaultProfile=Shell.profile
 
 [Dialogs]
 FirstRun=false
+
+[DownloadDialog Settings]
+Height 1050=400
+Width 1680=700
 
 [Favorite Profiles]
 Favorites=
